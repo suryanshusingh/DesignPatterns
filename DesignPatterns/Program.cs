@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Behavioral.Iterator;
+using DesignPatterns.Behavioral.Template;
 using System;
 
 namespace DesignPatterns
@@ -7,7 +8,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Client.IteratorDPStartup();
+            TemplateClient.TemplateDPStartup();
         }
     }
 }

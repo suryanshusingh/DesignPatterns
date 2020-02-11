@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatterns.Behavioral.Iterator
 {
-    class Client
+    class IteratorClient
     {
         public static void IteratorDPStartup()
         {

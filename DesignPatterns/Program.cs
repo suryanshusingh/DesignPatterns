@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Behavioral.Iterator;
+using DesignPatterns.Behavioral.Mediator;
 using DesignPatterns.Behavioral.Observer;
 using DesignPatterns.Behavioral.State;
 using DesignPatterns.Behavioral.Strategy;
@@ -11,7 +12,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            ObserverClient.ObserverDPStartup();
+            MediatorClient.MediatorDPStartUp();
         }
     }
 }

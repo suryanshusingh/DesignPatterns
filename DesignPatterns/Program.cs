@@ -5,6 +5,8 @@ using DesignPatterns.Behavioral.Observer;
 using DesignPatterns.Behavioral.State;
 using DesignPatterns.Behavioral.Strategy;
 using DesignPatterns.Behavioral.Template2;
+using DesignPatterns.Creational.AbstractFactory;
+using DesignPatterns.Creational.FactoryMethod;
 using System;
 
 namespace DesignPatterns
@@ -13,7 +15,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            CORClient.CORStartup();
+            AbstractFactoryClient.AbstractFactoryStartUp();
         }
     }
 }

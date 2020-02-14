@@ -15,7 +15,7 @@ namespace DesignPatterns.Behavioral.ChainOfResponsibility
             manager.SetSupervisor(seniormanager);
             seniormanager.SetSupervisor(director);
 
-            manager.ProcessBuyRequest(25001);
+            manager.ProcessBuyRequest(100);
 
         }
     }
